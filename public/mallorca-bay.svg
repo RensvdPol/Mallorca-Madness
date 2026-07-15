@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffb1ba"/><stop offset=".35" stop-color="#ffd6a5"/><stop offset=".7" stop-color="#76d8e6"/></linearGradient>
+ <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#3cd4d5"/><stop offset="1" stop-color="#087a9a"/></linearGradient>
+ <linearGradient id="rock" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ca8b63"/><stop offset="1" stop-color="#744838"/></linearGradient>
+</defs>
+<rect width="1600" height="570" fill="url(#sky)"/><circle cx="1110" cy="180" r="85" fill="#ffe89b" opacity=".88"/>
+<path d="M0 520 Q300 480 610 535 T1200 510 T1600 530 V1000 H0Z" fill="url(#sea)"/>
+<path d="M0 610 Q210 530 430 595 T840 600 T1260 575 T1600 610" fill="none" stroke="#e8ffff" stroke-width="12" opacity=".65"/>
+<path d="M0 445 L150 360 280 430 410 335 560 450 650 520 0 550Z" fill="url(#rock)"/>
+<path d="M1600 370 L1450 305 1320 410 1210 380 1090 510 1600 550Z" fill="url(#rock)"/>
+<path d="M0 820 Q340 710 680 820 T1320 800 T1600 830 V1000 H0Z" fill="#f5d7a6"/>
+<g fill="#0b624f"><path d="M180 0 q70 120 20 260 q-28 80-20 180 h22 q-4-105 25-190 q47-141-5-250z"/><path d="M190 95 q-100 30-155 90 q98-30 160-47z"/><path d="M202 105 q110 0 175 55 q-100-18-171-12z"/><path d="M191 120 q-120 80-140 165 q78-68 148-115z"/><path d="M206 128 q120 48 165 130 q-88-53-168-82z"/></g>
+<g fill="#0b624f" transform="translate(1300 10) scale(.9)"><path d="M180 0 q70 120 20 260 q-28 80-20 180 h22 q-4-105 25-190 q47-141-5-250z"/><path d="M190 95 q-100 30-155 90 q98-30 160-47z"/><path d="M202 105 q110 0 175 55 q-100-18-171-12z"/><path d="M191 120 q-120 80-140 165 q78-68 148-115z"/><path d="M206 128 q120 48 165 130 q-88-53-168-82z"/></g>
+<g opacity=".65" fill="#fff"><circle cx="780" cy="680" r="4"/><circle cx="820" cy="720" r="3"/><circle cx="940" cy="660" r="4"/><circle cx="1020" cy="730" r="3"/></g>
+</svg>
